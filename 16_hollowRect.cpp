@@ -2,19 +2,23 @@
 using namespace std;
 int main()
 {
-    int n;
-    cout << "Enter the number of rows/Colums" << endl;
-    cin >> n;
-    for (int i = 1; i <= n; i++)
+    int r,c;
+    cout << "Enter the number of rows" << endl;
+    cin >> r;
+    cout<<"Enter the number of colums"<<endl;
+    cin>>c;
+    for (int i = 1; i <= r; i++)
     {
         
-        for (int j = 1; j <=n; j++)
+        for (int j = 1; j <=c; j++)
         {
-            if (i==1 || i==n)
+            if (i==1 || i==r)
             {
                 cout<<"*";
+                
+              
             }
-            else if (j==1 || j==n)
+            else if (j==1 || j==c)
             {
                 cout<<"*";
             }else {
