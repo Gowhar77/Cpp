@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 int larg(int a, int b, int c) {
-      if (a>b && a>c)
+      if (a>=b && a>=c)
       {
         cout<<a<<" num1 is largest"<<endl;
       }
-      else if (b>a && b>c)
+      else if (b>=c)
       {
         cout<<b<<" num2 is largest"<<endl;
       } else {
